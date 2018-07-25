@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#title, #description {
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: #000;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  text-align: center;
+}
+
+#graph-holder {
+  text-align: center;
+}
+
+svg {
+  display: inline-block
+}

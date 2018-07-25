@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: #000;
+  border-radius: 4px;
+  color: #fff;
+  padding: 10px;
+  opacity: 0;
+  text-align: center;
+}
+.cell:hover {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+svg {
+  background-color: #fff
+}
+
+#title, #description {
+  text-align: center;
+}

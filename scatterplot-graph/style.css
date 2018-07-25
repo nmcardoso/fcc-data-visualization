@@ -1,0 +1,12 @@
+.dot {
+  opacity: .8;
+  stroke: rgb(22, 22, 22);
+}
+
+#tooltip {
+  background-color: rgb(121, 173, 252);
+  position: absolute;
+  pointer-events: none;
+  padding: 10px;
+  border-radius: 2px;
+}
